@@ -1,0 +1,106 @@
+body {
+  font-family: "Karma", serif;
+  font-size: 20px;
+  background: #ffffff;
+}
+div.card {
+  border-color: #596aca;
+  border-style: solid;
+  border-width: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+#citySearch {
+  width: 280px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  border-color: #42a5f5;
+}
+#search-button {
+  border-radius: 5px;
+  margin-bottom: 2px;
+  border-color: #42a5f5;
+}
+h4,
+.nextnamedays {
+  color: #ff3467;
+}
+.daymax,
+.daymin {
+  text-align: relative;
+  margin-left: 120px;
+}
+.daymax {
+  margin-top: -60px;
+  font-weight: bold;
+}
+ul {
+  position: relative;
+  margin: -190px 15px 15px;
+  margin-left: 175px;
+  font-weight: bold;
+  padding: 20px;
+}
+h5,
+ul {
+  color: #5a6275;
+}
+#cityTbc {
+  font-weight: bold;
+  padding: 50px 50px;
+  font-size: 40px;
+}
+.weather-advice {
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.fa-sun {
+  color: #ffa726;
+  font-size: 40px;
+  padding: 0px 15px;
+  line-height: 0;
+}
+.fa-cloud-rain {
+  color: #596aca;
+  font-size: 40px;
+  padding: 0px 15px;
+  line-height: 0;
+}
+.fa-cloud-sun {
+  color: #596aca;
+  font-size: 40px;
+  padding: 0px 15px;
+  line-height: 0;
+}
+
+.maxdegrees {
+  text-align: center;
+  font-weight: bold;
+  color: #596aca;
+}
+.mindegrees {
+  text-align: center;
+  line-height: 0;
+  color: #596aca;
+}
+.mainweather {
+  font-size: 75px;
+  padding: 30px;
+}
+.currentweather {
+  font-size: 30px;
+  padding: 10px;
+  color: #596aca;
+  font-weight: bold;
+  text-align: left;
+}
+hr {
+  background: none;
+  clear: both;
+  float: none;
+  width: 100%;
+  height: 1px;
+  border: none;
+  margin: -1px 0;
+}

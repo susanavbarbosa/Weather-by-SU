@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WeatherSU</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karma&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/19adc43ddb.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <h2><span><i class="fas fa-search-location"></i></i></span>
+            <form id="search-city-form">
+              <input
+                type="text"
+                placeholder="Enter city name"
+                autofocus="on"
+                id="citySearch">
+                <input type="submit" value="Search" id="search-button">
+              </form>
+              </h2>
+          <h4>Sunday, 21/01/2020, 12h00</h4>
+          <div class="row">
+            </div><div class="col-sm">
+                <i class="far fa-sun mainweather"></i> </div><div class="currentweather">
+                  <span class="temperature" id="mainTemperature">
+                  17
+                </span>
+                <span class="cf-result">
+                  <a href="#" id="c-link">
+                    °C
+                  </a>
+                  |
+                  <a href="#" id="f-link">
+                    °F
+                  </a>
+                </span>
+                <hr/>
+                <div class="daymax small" id=dailyMaxTem>
+                 </div>
+                <hr/>
+                <div class="daymin small" id=dailyMinTem></div>
+              </div>
+              <span id=cityTbc>
+              </span>
+              <div class="result">
+               <ul style="list-style-type:none">
+                <li>Sky: <span id="sky"></span></li> 
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
+                <li class="weather-advice">*wear sunscreen</li>
+                  </ul>
+                </div>
+          <h5>
+            Next:
+          </h5>
+          <hr/>
+          <div class="row">
+            <div class="col-sm">
+              <div class="nextnamedays">
+                Monday
+            </div><br>
+            <i class="fas fa-cloud-sun"></i>
+            <p class="maxdegrees" id="dailyMaxTem">
+              22ºC
+            </p>
+            <p class="mindegrees" id="dailyMinTem">
+              10ºC
+            </p>
+          </div>
+          <div class="col-sm"
+            ><div class="nextnamedays">
+                Tuesday
+            </div><br>
+            <i class="far fa-sun"></i>
+            <p class="maxdegrees">
+              22ºC
+            </p>
+            <p class="mindegrees">
+              14ºC
+            </p>
+          </div>
+          <div class="col-sm"
+            ><div class="nextnamedays">
+                Wednesday
+            </div><br>
+            <i class="far fa-sun"></i>
+            <p class="maxdegrees">
+              20ºC
+            </p>
+            <p class="mindegrees">
+              10ºC
+            </p>
+          </div>
+          <div class="col-sm"
+            ><div class="nextnamedays">
+                Thursday
+            </div><br>
+            <i class="fas fa-cloud-sun"></i>
+            <p class="maxdegrees">
+              18ºC
+            </p>
+            <p class="mindegrees">
+              7ºC
+            </p>
+          </div>
+          <div class="col-sm"
+            ><div class="nextnamedays">
+                Friday
+            </div><br>
+            <i class="fas fa-cloud-rain"></i>
+            <p class="maxdegrees">
+              19ºC
+            </p>
+            <p class="mindegrees">
+              10ºC
+            </p>
+          </div>
+    </div>
+  </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
