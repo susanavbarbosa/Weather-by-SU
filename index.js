@@ -70,4 +70,15 @@ function handleSubmit(event) {
 let searchForm = document.querySelector("#search-city-form");
 searchForm.addEventListener("submit", handleSubmit);
 
+function convertToFahrenheit(event) {
+  event.preventDefault();
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = 66;
+}
+
+function convertToCelsius(event) {
+  event.preventDefault();
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = 19;
+}
 searchCity("Porto");
