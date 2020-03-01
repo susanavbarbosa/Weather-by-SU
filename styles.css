@@ -48,7 +48,8 @@ ul {
   padding: 20px;
 }
 h5,
-ul {
+ul,
+#cityTbc {
   color: #5a6275;
 }
 #cityTbc {
